@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 class=" fw-bold fs-1 text-center mt-5">
+            MAC BOOK <span class=" text-danger">STORE</span>
+        </h1>
+    </header>
+    <main>
+
+        <div class=" mt-5 container d-flex flex-row justify-content-between 
+        ">
+            <div class="w-100"> <img src="image/mac.png" class=" w-100" alt=""></div>
+            <div class=" ms-5 w-100">
+                <div class="">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ut?</h1>
+                </div>
+                <div class="mt-4">
+                    <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, expedita! Exercitationem
+                        obcaecati unde dolor, accusamus, sequi assumenda omnis explicabo harum sapiente vitae odio
+                        autem, ad quidem fugiat amet! Natus ad, officia nemo recusandae quos ipsa ab sapiente laboriosam
+                        incidunt ratione.</h5>
+                </div>
+                <div class="mt-4">
+                    <h5 class="fw-bold">MEMORY</h5>
+                    <button id="eight-memory" type="button" class="btn  m-2  btn-outline-secondary">8 GB Memory</button>
+                    <button id="sixteen-memory" type="button" class="btn  m-2 btn-outline-secondary">16 GB
+                        Memory</button>
+                </div>
+                <div class="mt-4">
+                    <h5 class="fw-bold">STORAGE</h5>
+                    <button id="pri-storage" type="button" class="btn  m-2  btn-outline-secondary">256GB SSD
+                        storage</button>
+                    <button id="sec-storage" type="button" class="btn  m-2 btn-outline-secondary">512GB SSD
+                        storage</button>
+                    <button id="tertiary-storage" type="button" class="btn  m-2 btn-outline-secondary">1TB
+                        Memory</button>
+                </div>
+                <div class="mt-4">
+                    <h5 class="fw-bold">Chose your delivery option</h5>
+                    <button id="free-delivery" type="button" class="btn  m-2 btn-outline-secondary">Friday, Aug 25 Free
+                        Prime
+                        Delivery</button>
+                    <button id="early-delivery" type="button" class="btn  m-2 btn-outline-secondary">Monday, Aug 20
+                        Delivery Charge $20</button>
+                </div>
+                <!--Price table  -->
+                <div class="">
+                    <table class="table mt-5">
+                        <thead>
+                            <tr>
+                                <!-- BEST Price -->
+                                <th scope="row">BEST Price</th>
+                                <td class="fw-bold">$<span>1299</span> </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <!-- Extra Memory Cost -->
+                                <th scope="row">Extra Memory Cost</th>
+                                <td class="fw-bold">$<span id="ex-memory-cost">0</span> </td>
+
+                            </tr>
+                            <tr>
+                                <!-- Extra Storage Cost -->
+                                <th scope="row">Extra Storage Cost</th>
+                                <td class=" fw-bold">$<span id="ex-storage-cost">0</span></td>
+
+                            </tr>
+                            <tr>
+                                <!-- Delivery Cost -->
+                                <th scope="row">Delivery Cost</th>
+                                <td class=" fw-bold">$<span id="delivery-cost">0</span></td>
+
+                            </tr>
+
+                            <tr>
+                                <!-- Total Cost -->
+                                <th scope="row">Total Cost</th>
+                                <td class=" fw-bold">$<span id="in-total-cost">1299</span></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <!-- Apply Cupon Code -->
+                    <h5>Apply Cupon Code</h5>
+                    <div class="input-group mb-3 mt-4 w-75">
+                        <input type="text" id="cupon-input" class="form-control" placeholder=""
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-danger " type="button"
+                            id="button-addon2 apply cupon-button">Apply</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr style="height:2px; width: 80%; margin-left:100px; color:gray;background-color:gray">
+        <div class=" text-center">
+            <h1 class=" fs-1 fw-bold"> Total: $<span id="total">1299</span></h1>
+        </div>
+    </main>
+
+
+
+
+
+
+    <script src="js/mac.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
